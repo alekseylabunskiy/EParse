@@ -13,7 +13,7 @@ function __autoload($classname){
             break;            
     }
 }
-// Выбор контроллера.
+// Выбор основного контроллера.
 switch ($_GET['c'])
 {
   case 'post':
